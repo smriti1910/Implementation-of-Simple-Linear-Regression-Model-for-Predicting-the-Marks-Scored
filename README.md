@@ -13,7 +13,6 @@ To write a program to predict the marks scored by a student using the simple lin
 3. Plot the scatter plot
 4. Use mse,rmse,mae formmula to find
 
-
 ## Program:
 ```
 /*
@@ -21,6 +20,7 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: SMRITI .B
 RegisterNumber: 212221040156
 */
+```
 ```
 import numpy as np
 import pandas as pd
@@ -71,7 +71,7 @@ print('RMSE=',rmse)
 b=np.array([[10]])
 y_pred1=reg.predict(b)
 print(y_pred1)
-
+```
 ## Output:
 ![image](https://github.com/smriti1910/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/133334803/79d63ea8-49cf-43ec-94be-91ae46cd8f56)
 ![image](https://github.com/smriti1910/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/133334803/6ae816f6-3f1b-499c-9551-ba7128669607)
